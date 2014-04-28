@@ -17,5 +17,4 @@ nanp("911");                    // returns false
 
 ```
 
-
 Learn more: http://en.wikipedia.org/wiki/North_American_Numbering_Plan
