@@ -17,3 +17,7 @@ var invalid = require('./invalid').numbers;
 for (var i = 0; i < invalid.length; i++) {
     assert.equal(false, nanp(invalid[i]));
 }
+
+
+// test undefined
+assert.equal(false, nanp());
