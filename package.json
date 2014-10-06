@@ -1,6 +1,6 @@
 {
   "name": "nanp",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Test if a string is a North American Number Plan (phone) number.",
   "main": "index.js",
   "scripts": {
