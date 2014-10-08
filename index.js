@@ -1,6 +1,6 @@
 
 function strip(str) {
-    return str.replace(/[\-\(\)\. ]/g, "");
+    return (str || "").replace(/[\-\(\)\. ]/g, "");
 }
 
 var nanp = /^\(?([2-9][0-9]{2})\)?([2-9](?!11)[0-9]{2})?([0-9]{4})$/
