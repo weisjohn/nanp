@@ -17,4 +17,11 @@ nanp("911");                    // returns false
 
 ```
 
+You can also use `nanp`'s internal `strip` function to clean strings:
+
+```javascript
+var clean = nanp.strip("(937) 252 1234"); // -> 9372521234
+```
+
 Learn more: http://en.wikipedia.org/wiki/North_American_Numbering_Plan
+
